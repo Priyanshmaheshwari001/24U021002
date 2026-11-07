@@ -1,0 +1,4 @@
+strategy,total_rows,valid_rows,failed_count,fp_count,fn_count,total_errors
+zero_shot,30,30,0,0,0,0
+few_shot,30,29,1,0,0,1
+cot_style,30,29,1,0,0,1

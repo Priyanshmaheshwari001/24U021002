@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+emoji
+python-dotenv
+tqdm
+streamlit
+tenacity
+google-genai

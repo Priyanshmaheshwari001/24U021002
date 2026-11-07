@@ -1,0 +1,50 @@
+[
+  {
+    "strategy": "zero_shot",
+    "total_rows": 30,
+    "valid_rows": 30,
+    "failed_count": 0,
+    "fp_count": 0,
+    "fn_count": 0,
+    "total_errors": 0,
+    "false_positives": [],
+    "false_negatives": [],
+    "failures": []
+  },
+  {
+    "strategy": "few_shot",
+    "total_rows": 30,
+    "valid_rows": 29,
+    "failed_count": 1,
+    "fp_count": 0,
+    "fn_count": 0,
+    "total_errors": 1,
+    "false_positives": [],
+    "false_negatives": [],
+    "failures": [
+      {
+        "text": "What do you call a lesbian Eskimo? A Klondike.",
+        "true_label": 1,
+        "reason": "Execution error: Server disconnected without sending a response."
+      }
+    ]
+  },
+  {
+    "strategy": "cot_style",
+    "total_rows": 30,
+    "valid_rows": 29,
+    "failed_count": 1,
+    "fp_count": 0,
+    "fn_count": 0,
+    "total_errors": 1,
+    "false_positives": [],
+    "false_negatives": [],
+    "failures": [
+      {
+        "text": "Don't you just hate it when the guy sucking you off turns out to be gay",
+        "true_label": 1,
+        "reason": "Execution error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      }
+    ]
+  }
+]

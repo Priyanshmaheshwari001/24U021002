@@ -1,0 +1,51 @@
+================================================================================
+DATASET SUMMARY
+================================================================================
+Directory: data/raw
+Files found: 1
+ - hahackathon_train.csv (1,051,594 bytes)
+
+--------------------------------------------------------------------------------
+File: hahackathon_train.csv
+--------------------------------------------------------------------------------
+1. Dataset Shape: 8,000 rows, 6 columns
+2. Column Names: ['id', 'text', 'is_humor', 'humor_rating', 'humor_controversy', 'offense_rating']
+   Data Types:
+     - id: int64
+     - text: str
+     - is_humor: int64
+     - humor_rating: float64
+     - humor_controversy: float64
+     - offense_rating: float64
+
+3. Null Value Counts:
+     - id: 0 (0.00%)
+     - text: 0 (0.00%)
+     - is_humor: 0 (0.00%)
+     - humor_rating: 3,068 (38.35%)
+     - humor_controversy: 3,068 (38.35%)
+     - offense_rating: 0 (0.00%)
+
+4. Duplicate Counts:
+     - Entire row duplicates: 0
+     - Duplicate texts ('text' column): 0
+
+5. Identified Columns:
+     - Text Column: 'text'
+     - Humour Label Column: 'is_humor'
+     - Secondary Columns: ['id', 'humor_rating', 'humor_controversy', 'offense_rating']
+
+6. Class Distribution ('is_humor'):
+     - Not Humorous / Non-humorous (0): 3,068 (38.35%)
+     - Humorous / Funny (1): 4,932 (61.65%)
+     - Total: 8,000 (100.00%)
+     - Both binary classes (0 and 1) are present and verified.
+
+7. Sample Rows (First 5):
+   id                                                                                                                                                                                           text  is_humor  humor_rating  humor_controversy  offense_rating
+0   1                                                                             TENNESSEE: We're the best state. Nobody even comes close. *Elevennessee walks into the room* TENNESSEE: Oh shit...         1          2.42                1.0             0.2
+1   2  A man inserted an advertisement in the classifieds "Wife Wanted". The next day, he received 1000 of replies, all reading: "You can have mine." Free delivery also available at your door step         1          2.50                1.0             1.1
+2   3                                                                               How many men does it take to open a can of beer? None. It should be open by the time she brings it to the couch.         1          1.95                0.0             2.4
+3   4                                                    Told my mom I hit 1200 Twitter followers. She pointed out how my brother owns a house and I'm wanted by several collection agencies. Oh ma!         1          2.11                1.0             0.0
+4   5                                                                                                                       Roses are dead. Love is fake. Weddings are basically funerals with cake.         1          2.78                0.0             0.1
+

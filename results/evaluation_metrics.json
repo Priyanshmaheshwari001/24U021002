@@ -1,0 +1,80 @@
+[
+  {
+    "strategy": "zero_shot",
+    "status": "completed",
+    "total_rows": 30,
+    "valid_rows": 30,
+    "failed_rows": 0,
+    "failure_rate": 0.0,
+    "accuracy_valid": 1.0,
+    "accuracy_strict": 1.0,
+    "precision_humour": 1.0,
+    "recall_humour": 1.0,
+    "f1_humour": 1.0,
+    "precision_non_humour": 1.0,
+    "recall_non_humour": 1.0,
+    "f1_non_humour": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": {
+      "tn": 15,
+      "fp": 0,
+      "fn": 0,
+      "tp": 15
+    },
+    "correct_count": 30
+  },
+  {
+    "strategy": "few_shot",
+    "status": "completed",
+    "total_rows": 30,
+    "valid_rows": 29,
+    "failed_rows": 1,
+    "failure_rate": 3.33,
+    "accuracy_valid": 1.0,
+    "accuracy_strict": 0.9667,
+    "precision_humour": 1.0,
+    "recall_humour": 1.0,
+    "f1_humour": 1.0,
+    "precision_non_humour": 1.0,
+    "recall_non_humour": 1.0,
+    "f1_non_humour": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": {
+      "tn": 15,
+      "fp": 0,
+      "fn": 0,
+      "tp": 14
+    },
+    "correct_count": 29
+  },
+  {
+    "strategy": "cot_style",
+    "status": "completed",
+    "total_rows": 30,
+    "valid_rows": 29,
+    "failed_rows": 1,
+    "failure_rate": 3.33,
+    "accuracy_valid": 1.0,
+    "accuracy_strict": 0.9667,
+    "precision_humour": 1.0,
+    "recall_humour": 1.0,
+    "f1_humour": 1.0,
+    "precision_non_humour": 1.0,
+    "recall_non_humour": 1.0,
+    "f1_non_humour": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": {
+      "tn": 15,
+      "fp": 0,
+      "fn": 0,
+      "tp": 14
+    },
+    "correct_count": 29
+  }
+]
